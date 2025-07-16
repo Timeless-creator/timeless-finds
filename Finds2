@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Timeless Finds</title>
+  <style>
+    body { font-family: serif; background-color: #f8f4ec; color: #3e2c23; margin: 20px; }
+    header, footer { text-align: center; padding: 20px; }
+    h1, h2 { margin-bottom: 5px; }
+    .product { border: 1px solid #ccc; padding: 15px; margin: 20px auto; max-width: 400px; background: #fff; }
+    .product img { max-width: 100%; height: auto; }
+    button, a.button { display: inline-block; padding: 10px 20px; background-color: #3e2c23; color: #fff; text-decoration: none; border: none; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Timeless Finds</h1>
+    <p>Curated Vintage & Antique Treasures</p>
+    <a class="button" href="#shop">Shop Now</a>
+  </header>
+
+  <section id="shop">
+    <h2 style="text-align:center;">Shop</h2>
+    
+    <div class="product">
+      <h3>Vintage Brass Candlesticks (Pair)</h3>
+      <img src="candlesticks.jpg" alt="Vintage Brass Candlesticks">
+      <p>Circa 1960s. Rich patina. $45.00</p>
+      <a class="button" href="https://your-payment-link.com">Buy Now</a>
+    </div>
+    
+    <div class="product">
+      <h3>Antique Wooden Box</h3>
+      <img src="woodenbox.jpg" alt="Antique Wooden Box">
+      <p>Beautiful carved details. Early 1900s. $65.00</p>
+      <a class="button" href="https://your-payment-link.com">Buy Now</a>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2 style="text-align:center;">About Timeless Finds</h2>
+    <p style="max-width:600px; margin:0 auto;">
+      At Timeless Finds, we believe every item has a story. We carefully select unique vintage and antique pieces to bring character and history into your home. Thank you for supporting sustainable, small-business shopping!
+    </p>
+  </section>
+
+  <footer>
+    <p>Contact: timelessfinds@example.com</p>
+  </footer>
+</body>
+</html>
